@@ -90,8 +90,8 @@ def copy_files(src_folder, dest_folder, regStr):
                 w.writerow([str(prop.paths[i])+'\n'])
 
 if __name__ == '__main__':
-        src_folder = r"z:\Projekte\112933-HighRe\20_Durchfuehrung\OE410\SRWS\Data\Bowtie1Fast"
-        dest_folder = r"z:\Projekte\112933-HighRe\20_Durchfuehrung\OE410\SRWS\Data\Bowtie1Fast"
+        src_folder = r"z:\Projekte\112933-HighRe\20_Durchfuehrung\OE410\SRWS\Data\LissajousTM20_laser_on"
+        dest_folder = r"z:\Projekte\112933-HighRe\20_Durchfuehrung\OE410\SRWS\Data\LissajousTM20_laser_on"
         log_file = "CopyFiles.log"
         regStr = '*T*[!.(zip|7z|txt)]'
-        FnLogging(log_file, src_folder, dest_folder, regStr)
+        FnLogging(log_file, src_folder, dest_folder, regStr)    
